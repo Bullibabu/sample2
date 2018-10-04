@@ -13,6 +13,8 @@ public class TestAddFile extends Setup{
 	  //driver.get("https://qa.workshare.com/#folders/"); //navigateTo(");
 	  FolderPage fp = new FolderPage(driver);
 	  fp.clickAddFileIcon();
+	  
+	  System.out.println("Test Git ");
 	  try {
 		Thread.sleep(20000);
 	} catch (InterruptedException e) {
